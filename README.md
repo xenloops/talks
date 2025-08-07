@@ -1,5 +1,11 @@
 # Talkography
 
+## Why People Hate AppSec, and the Tools They Ride In On
+
+TBD (Under development)
+
+Abstract: TBD
+
 ## Patching the Psyche Against Cybersecurity Stress
 ### _or: How I learned to stop worrying and love the job_
 
