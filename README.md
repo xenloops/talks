@@ -2,9 +2,15 @@
 
 ## Why People Hate AppSec, and the Tools They Ride In On
 
-TBD (Under development)
+Submitted for Secure 360, 2026
 
-Abstract: TBD
+### Abstract
+
+Application Security is supposed to make software safer, but too often along with decreasing risk it too often has the side effect of  increasing developers' misery. With endless scans, vague automated backlog injections, and "critical" findings on dead code, AppSec can come across less like a partner and more like a Vogon: "Not actually evil, but bad-tempered, bureaucratic, officious and callous."*. This talk explores the real (and completely fixable) reasons behind that friction -- cultural, operational, and technical -- and how to turn AppSec from the "Department of No" into a catalyst for secure software development.
+
+We’ll look at how AppSec programs unintentionally sabotage themselves through poor communication, tooling overload, and unrealistic policies. Then we’ll discuss practical ways to rebuild trust: integrating feedback loops, mapping tools to actual developer workflows, measuring success in developer-friendly terms, and replacing gatekeeping with enablement. Whether you’re a developer tired of security theater or an AppSec lead wondering why your risk assessments are run through at 3x speed in meetings, you’ll leave with strategies that work in the real world, not just the PowerPoint version.
+
+* See _The Hitchhiker's Guide to the Galaxy_, or the Wikipedia entry at https://en.wikipedia.org/wiki/Vogon.
 
 ## Patching the Psyche Against Cybersecurity Stress
 ### _or: How I learned to stop worrying and love the job_
