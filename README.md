@@ -14,6 +14,12 @@ Whether you’re a developer tired of security theater or an AppSec lead wonderi
 
 Adams, D. (1979). _The Hitchhiker's Guide to the Galaxy_. London: Pan Books.
 
+Objectives:
+
+* AppSec/Dev friction silently erodes an organization’s ability to adapt to risk
+* Bad tools, poor communication, and misaligned incentives turn good intentions into resentment and operational drag
+* Integrate security into dev workflows, improve trust, and work with Development to adapt quickly
+
 ---
 
 ## Patching the Psyche Against Cybersecurity Stress
