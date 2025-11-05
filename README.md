@@ -2,13 +2,15 @@
 
 ## Why People Hate AppSec, and the Tools They Ride In On
 
-Submitted for Secure 360, 2026
+Submitted for Secure 360, May 2026
 
 ### Abstract
 
-Application Security is supposed to make software less risky, but too often along with decreasing risk it too often has the side effect of  increasing developers' misery. With endless scans, vague automated backlog injections, and "critical" findings on dead code, AppSec can come across less like a partner and more like a Vogon: "Not actually evil, but bad-tempered, bureaucratic, officious and callous." (Adams, 1979). This talk explores the real (and completely fixable) reasons behind that friction -- cultural, operational, and technical -- and how to turn AppSec from the "Department of No" into a catalyst for secure software development.
+Application Security is supposed to make software less risky, but along with decreasing risk it too often has the side effect of increasing developers' misery. With endless scans, vague automated backlog injections, and "critical" findings on dead code, AppSec can come across less like a partner and more like a Vogon: "Not actually evil, but bad-tempered, bureaucratic, officious and callous." (Adams, 1979). Meanwhile, threats evolve faster than ever, and if AppSec and Development are at odds, the real risk isn’t the next zero-day -- it’s our inability to adapt to it.
 
-We’ll look at how AppSec programs unintentionally sabotage themselves through poor communication, tooling overload, and unrealistic policies. Then we’ll discuss practical ways to rebuild trust: integrating feedback loops, mapping tools to actual developer workflows, measuring success in developer-friendly terms, and replacing gatekeeping with enablement. Whether you’re a developer tired of security theater or an AppSec lead wondering why your risk assessments are run through at 3x speed in meetings, you’ll leave with strategies that work in the real world, not just the PowerPoint version.
+This talk explores the real (and completely fixable) reasons behind that friction -- cultural, operational, and technical -- and how it cripples our response to modern threats. We’ll look at how AppSec programs unintentionally sabotage themselves through poor communication, tooling overload, and unrealistic policies. We’ll discuss practical ways to rebuild trust and agility: integrating feedback loops, mapping tools to developer workflows, measuring success in dev-friendly terms, and replacing gatekeeping with enablement.
+
+Whether you’re a developer tired of security theater or an AppSec lead wondering why your risk assessments are rushed through at 3x speed in meetings, you’ll leave with strategies that that make your AppSec program as adaptable as the threats it’s meant to defend against.
 
 Adams, D. (1979). _The Hitchhiker's Guide to the Galaxy_. London: Pan Books.
 
@@ -23,6 +25,7 @@ Abstract: Working in the technology sector, especially in security, presents dis
 
 [Slides](2025-S360-Patching-the-Psyche.pdf)
 
+---
 
 ## The Guard at the Gate: Security Risks in AI-Generated Code
 ### _or: Shall We Play a Game?_
