@@ -2,7 +2,7 @@
 
 ## Why People Hate AppSec, and the Tools They Ride In On
 
-Submitted for Secure 360, May 2026
+Secure 360, May 2026
 
 ### Abstract
 
