@@ -6,7 +6,7 @@ Title
 
 # About the speaker
 Blah blah blah
-
+Contact info
 
 # The Build is Broken
 ...and it's not the scanner's fault
@@ -75,7 +75,10 @@ Tools - Integrate findings into developer workflows; tune noise ruthlessly
 The orgs that adapt fastest aren't the ones with the most tools — they're the ones that removed the organizational friction preventing good security hygiene
 
 Concrete conversation starters to use next week
-One punchy closing line that reframes the whole thing — e.g., "The goal isn't a frictionless AppSec program. It's friction in the right places — and acceleration everywhere else."
+
+The goal isn't a frictionless AppSec program. It's friction in the right places — and acceleration everywhere else.
+
+
 
 # Misc notes
 
