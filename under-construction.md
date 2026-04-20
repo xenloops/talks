@@ -22,7 +22,7 @@ Security wants fewer risks. Devs want fewer blockers. Why are these treated as o
 * Too many tools! -- One for defects in custom code, one for defects in third-party libraries, one for hard-coded secrets getting checked in (one each if lucky!)
 * Notification fatigue -- Every finding is an alert
 * Backlog fatigue -- When is every finding the tool injects supposed to be remediated, with all these other priorities?
-* Meeting fatigues -- Between standups, sprint planning, retrospectives, PI pre-planning, PI planning.... do you really want to call them into another meeting about one part of the job?
+* Meeting fatigue -- Between standups, sprint planning, retrospectives, PI pre-planning, PI planning.... do you really want to call them into another meeting about one part of the job?
 
 ## The Psychology of Security Friction
 
