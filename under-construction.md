@@ -19,18 +19,23 @@ Security wants fewer risks. Devs want fewer blockers. Why are these treated as o
 # Why Devs Push Back (10)
 ...or totally blow AppSec off
 
-## The Psychology and Dynamics of Security Friction
+* Too many tools! -- One for defects in custom code, one for defects in third-party libraries, one for hard-coded secrets getting checked in (one each if lucky!)
+* Notification fatigue -- Every finding is an alert
+* Backlog fatigue -- When is every finding the tool injects supposed to be remediated, with all these other priorities?
+* 
 
-* Incentive misalignment — devs are measured on velocity and features shipped, by the sprint. Security debt is invisible until it isn't. Nobody gets a bonus for a CVE they prevented. (OK to show Dilbert strip now, with Wally "writing himself an RV"?)
-* The "gate" mental model — security as a checkpoint at the end of the SDLC trains devs to see it as a last-minute tax, not a design input.
+## The Psychology of Security Friction
+
+* Incentive misalignment -- Devs are measured on velocity and features shipped, by the sprint. Security debt is invisible until it isn't. Nobody gets a bonus for a CVE they prevented. (Dilbert strip with Wally "writing himself an RV")
+* The "gate" mental model -- Security as a checkpoint at the end of the SDLC trains devs to see it as a last-minute tax, not a design input.
 * Alert fatigue and tool noise — when everything is P1, nothing is. SAST/DAST/SCA tools that produce undifferentiated noise get ignored.
 * The vocabulary gap — AppSec speaks in CVSS scores and CWE IDs; devs speak in sprint velocity and backlog debt. Same problem, mutually unintelligible.
 
 Quick poll: How many have had a security finding closed as "won't fix" with no conversation?
 
 
-# What's Actually at Stake (5)
-Framing Risk in Terms Engineering Leads Care About
+# What's at Stake (5)
+Framing Risk in Terms Development Leads Care About
 
 * The threat landscape moves faster than most SDLC processes were designed for (the actual argument for shifting left)
 * Regulatory and liability pressure is increasing (relevant guidance - PCI-DSS, SOC 2, CISA, etc.)
