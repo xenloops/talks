@@ -30,6 +30,7 @@ Security wants fewer risks. Devs want fewer blockers. Why are these treated as o
 * The "gate" mental model -- Security as a checkpoint at the end of the SDLC trains devs to see it as a last-minute tax, not a design input.
 * Alert fatigue and tool noise -- when everything is P1, nothing is. We've all heard complaints about false positives from SAST tools. Tools that produce too much noise get ignored. Tuning tool output or focusing on the risk important to the business is essential! Can't catch 'em all.
 * The vocabulary gap -- AppSec speaks in CVSS, CWE, and TTF; devs speak in sprint velocity and backlog debt. Mutually unintelligible.
+* The BISS Model -- AppSec says "do it Because I Said So", devs really need to know how big a risk the defect is.
 
 Quick poll: How many have had a security finding closed -- or closed one -- as "won't fix" with no conversation?
 
@@ -41,6 +42,7 @@ Framing Risk in Terms Development Leads Care About
 * Regulatory and liability pressure is increasing -- PCI-DSS, SOC 2, CISA, etc.
 * Cost of late-cycle remediation vs. early-cycle (but... [1]) -- Concrete, well-known, leadership-friendly argument (IBM/NIST data on cost-to-fix by phase)
 * Key reframe: it's not AppSec's problem -- it's an engineering quality problem that AppSec has been asked to own
+
 
 # The Pipeline is Your Friend (15)
 
@@ -86,8 +88,6 @@ The goal isn't a frictionless AppSec program. It's friction in the right places 
 
 
 # Misc notes
-
-# The BISS Model
 
 # The YAT Effect
 
