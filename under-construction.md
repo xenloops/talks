@@ -28,10 +28,10 @@ Security wants fewer risks. Devs want fewer blockers. Why are these treated as o
 
 * Incentive misalignment -- Devs are measured on velocity and features shipped, by the sprint. Security debt is invisible until it isn't. Nobody gets a bonus for a CVE they prevented. (Dilbert strip with Wally "writing himself an RV")
 * The "gate" mental model -- Security as a checkpoint at the end of the SDLC trains devs to see it as a last-minute tax, not a design input.
-* Alert fatigue and tool noise — when everything is P1, nothing is. SAST/DAST/SCA tools that produce undifferentiated noise get ignored.
-* The vocabulary gap — AppSec speaks in CVSS scores and CWE IDs; devs speak in sprint velocity and backlog debt. Same problem, mutually unintelligible.
+* Alert fatigue and tool noise -- when everything is P1, nothing is. We've all heard complaints about false positives from SAST tools. Tools that produce too much noise get ignored. Tuning tool output or focusing on the risk important to the business is essential! Can't catch 'em all.
+* The vocabulary gap -- AppSec speaks in CVSS, CWE, and TTF; devs speak in sprint velocity and backlog debt. Mutually unintelligible.
 
-Quick poll: How many have had a security finding closed as "won't fix" with no conversation?
+Quick poll: How many have had a security finding closed -- or closed one -- as "won't fix" with no conversation?
 
 
 # What's at Stake (5)
