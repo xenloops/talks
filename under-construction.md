@@ -37,10 +37,10 @@ Quick poll: How many have had a security finding closed -- or closed one -- as "
 # What's at Stake (5)
 Framing Risk in Terms Development Leads Care About
 
-* The threat landscape moves faster than most SDLC processes were designed for (the actual argument for shifting left)
-* Regulatory and liability pressure is increasing (relevant guidance - PCI-DSS, SOC 2, CISA, etc.)
-* The cost of late-cycle remediation vs. early-cycle is a concrete, leadership-friendly argument (IBM/NIST data on cost-to-fix by phase)
-* Key reframe: this isn't AppSec's problem — it's an engineering quality problem that AppSec has been asked to own
+* The threat landscape shifts faster than SDLCs -- were designed for. This is the argument for shifting left.
+* Regulatory and liability pressure is increasing -- PCI-DSS, SOC 2, CISA, etc.
+* Cost of late-cycle remediation vs. early-cycle (but... [1]) -- Concrete, well-known, leadership-friendly argument (IBM/NIST data on cost-to-fix by phase)
+* Key reframe: it's not AppSec's problem -- it's an engineering quality problem that AppSec has been asked to own
 
 # The Pipeline is Your Friend (15)
 
@@ -127,3 +127,8 @@ Adding another tool offers devs:
 * Tool integration -- some installation required
 * Trainings -- great, another time-suck
 * Metrics -- yet another dimension in which to be judged
+
+
+# Sources
+[1] T. Anderson, "Everyone cites that 'bugs are 100x more expensive to fix in production' research, but the study might not even exist," The Register, Jul. 22, 2021. [Online]. Available: https://www.theregister.com/2021/07/22/bugs_expense_bs. [Accessed: Apr. 23, 2026].
+
