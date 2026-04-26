@@ -48,24 +48,26 @@ Framing Risk in Terms Development Leads Care About
 
 What "integrated" really means vs. what it usually looks like in practice (bolted-on vs. baked-in)
 
-Maturity levels (informally):
+## Maturity levels (informally):
 
 1. "We pass zip files around." -- Sneakernet
 1. "We check the code out when someone's working on it, and that blocks others from changing it." -- TFS way?
 1. "We're fully GIT-ified, but what's this I hear about secure code?"
-1. "We scan right before pushing to Prod." -- This should be a legacy model. 
-1. "We do pre-commit checks for all security tests."
-1. "All our tools are in the devs' IDEs." -- All of the tools you use should have IDE plugins that scan automatically -- think like a spell-checker for code. Allows devs to fix potential defects while what they wrote is still fresh in mind, not from the last PI.
+1. "Scanning happens before pushing to Prod; we have a TTF policy based on severity."
+1. "Scanning happens before pushing to Prod, and blocks the build." -- This by now should be a legacy model. 
+1. "We do pre-commit checks for all security tests." -- Better...
+1. "All our tools are in the devs' IDEs." -- All of the tools you use should have IDE plugins that scan automatically -- think like a spell-checker for code. Allows devs to fix potential defects while what they wrote is still fresh in mind, not from three PIs ago. Convincing devs of this may take effort! Some really don't like other teams messing in their dev tools.
+1. "Tools in the IDE flag findings _and_ recommend fixes in context." -- This is state-of-the-art. As long as the LLM-generated suggestions are good ones.
 
-Principles for low-friction tooling:
+## Principles for low-friction tooling
 
-* Surface findings where developers work (IDE plugins, PR comments, not a separate portal)
-* Signal-to-noise tuning — suppress known/accepted risks so new findings land with impact
+* Surface findings where developers work -- IDE plugins, PR comments, not a separate portal
+* Signal-to-noise tuning -- suppress known/accepted risks so new findings land with impact
 * Actionable output: not just "it's vulnerable" but "here's a fix, here's why it matters, here's the blast radius"
+* Convince dev teams that it's in their best interest. -- Do you want to know of and fix an issue locally, or wait until it blocks you and your PM schedules a meeting with security?
+* Be reasonable -- Not every security check belongs in pre-commit or the IDE. Secrets, SAST (at least for criticals), yes; pen-testing or DAST takes longer, and SCA results usually don't change frequently. How about developer security training in the workflow?
 
-Shift-left without shift-all — not every security check belongs in pre-commit. Know what belongs where in the pipeline.
-Concrete tool-agnostic example: what a well-integrated SAST/SCA setup looks like in a CI/CD pipeline
-Emerging approaches: AI-assisted remediation suggestions, policy-as-code, developer security training embedded in workflow
+[Concrete tool-agnostic example: what a well-integrated SAST/SCA setup looks like in a CI/CD pipeline]
 
 # Bridging AppSec, Engineering, and Leadership (10)
 
