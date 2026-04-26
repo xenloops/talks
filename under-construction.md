@@ -62,8 +62,9 @@ What "integrated" really means vs. what it usually looks like in practice (bolte
 ## Principles for low-friction tooling
 
 * Surface findings where developers work -- IDE plugins, PR comments, not a separate portal
-* Signal-to-noise tuning -- suppress known/accepted risks so new findings land with impact
-* Actionable output: not just "it's vulnerable" but "here's a fix, here's why it matters, here's the blast radius"
+* Signal-to-noise tuning -- Suppress accepted risks so new findings land with impact.
+* Work with the business -- Flag the findings that business cares about. If Criticals and Highs are the only findings that business wants resolved, don't even show Mediums and lower to the devs.
+* Actionable output -- Not just "it's vulnerable" but "here's a fix, here's why it matters, here's the blast radius"
 * Convince dev teams that it's in their best interest. -- Do you want to know of and fix an issue locally, or wait until it blocks you and your PM schedules a meeting with security?
 * Be reasonable -- Not every security check belongs in pre-commit or the IDE. Secrets, SAST (at least for criticals), yes; pen-testing or DAST takes longer, and SCA results usually don't change frequently. How about developer security training in the workflow?
 
@@ -89,9 +90,9 @@ AppSec as an Enabler: A Model You Can Take Back Next Week
 
 | Layer | Activity |
 |--|--|
-| People/Culture | Shift the narrative from "security says no" to "security helps us ship confidently" |
-| Process | Define clear ownership — not every security decision belongs to AppSec |
-| Tools | Integrate findings into developer workflows; tune noise ruthlessly |
+| People/Culture | Shift the narrative from "security says no" to "security helps us ship confidently". |
+| Process | Define clear ownership. Not every security decision belongs to AppSec. |
+| Tools | Integrate findings into developer workflows; tune the noise out! |
 
 
 # Adaptation as the Core Skill (5)
