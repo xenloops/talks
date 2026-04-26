@@ -48,9 +48,14 @@ Framing Risk in Terms Development Leads Care About
 
 What "integrated" really means vs. what it usually looks like in practice (bolted-on vs. baked-in)
 
-* "We pass zip files around."
-* "We check the code out when someone's working on it, and that blocks others from changing it."
-* 
+Maturity levels (informally):
+
+1. "We pass zip files around." -- Sneakernet
+1. "We check the code out when someone's working on it, and that blocks others from changing it." -- TFS way?
+1. "We're fully GIT-ified, but what's this I hear about secure code?"
+1. "We scan right before pushing to Prod." -- This should be a legacy model. 
+1. "We do pre-commit checks for all security tests."
+1. "All our tools are in the devs' IDEs." -- All of the tools you use should have IDE plugins that scan automatically -- think like a spell-checker for code. Allows devs to fix potential defects while what they wrote is still fresh in mind, not from the last PI.
 
 Principles for low-friction tooling:
 
