@@ -39,9 +39,9 @@ Quick poll: How many have had a security finding closed -- or closed one -- as "
 Framing Risk in Terms Development Leads Care About
 
 * The threat landscape shifts faster than SDLCs -- were designed for. This is the argument for shifting left.
-* Regulatory and liability pressure is increasing -- PCI-DSS, SOC 2, CISA, etc.
+* Regulatory and liability pressure is increasing -- PCI-DSS, SOC 2, CISA, litigious customers, etc.
 * Cost of late-cycle remediation vs. early-cycle (but... [1]) -- Concrete, well-known, leadership-friendly argument (IBM/NIST data on cost-to-fix by phase)
-* Key reframe: it's not AppSec's problem -- it's an engineering quality problem that AppSec has been asked to own
+* Key reframe: it's not AppSec's problem -- But AppSec was formed to own the engineering quality control problem
 
 
 # The Pipeline is Your Friend (15)
