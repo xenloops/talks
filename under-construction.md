@@ -71,21 +71,27 @@ What "integrated" really means vs. what it usually looks like in practice (bolte
 
 # Bridging AppSec, Engineering, and Leadership (10)
 
-With developers: Lead with empathy, not compliance. "Here's what this would cost you if it hits prod" beats "the policy requires this."
-With engineering leads: Translate risk into delivery risk. Unpatched vulnerabilities are technical debt with an unpredictable interest rate.
-With leadership: Connect to business outcomes — liability, brand, customer trust, regulatory posture. Avoid security theater; propose measurable outcomes.
-Introduce a lightweight Friction Audit concept: a quick internal exercise teams can run to identify where AppSec is creating the most drag and why
-The "security champion" model as a cultural bridge — embedding security-minded devs in teams rather than relying solely on a central AppSec function
+How to speak with...
+
+* **Developers** Lead with empathy, not compliance. -- "Here's what this would cost you if it hits prod" beats "the policy requires this."
+* **Engineering leads** Translate risk into delivery risk. -- Unpatched vulnerabilities are technical debt with an unpredictable interest rate.
+* **Leadership** Connect scanning to business outcomes -- Liability, brand, customer trust, regulatory posture. Avoid security theater or FOGH (Fear of Getting Hit); propose measurable outcomes.
+
+Ideas
+
+* Introduce a lightweight Friction Audit concept -- A quick internal exercise teams can run to identify where AppSec is creating the most drag and why (they'll probably have a list already).
+* The security champion model as a cultural bridge -- Embedding security-minded devs in teams (or training the devs with interest in security) rather than relying solely on a central AppSec Dept.
+* 
 
 # A Pragmatic Framework (5)
+
 AppSec as an Enabler: A Model You Can Take Back Next Week
 
-
-Layer - What to do
-People/Culture - Shift the narrative from "security says no" to "security helps us ship confidently"
-Process - Define clear ownership — not every security decision belongs to AppSec
-Tools - Integrate findings into developer workflows; tune noise ruthlessly
-
+| Layer | Activity |
+|--|--|
+| People/Culture | Shift the narrative from "security says no" to "security helps us ship confidently" |
+| Process | Define clear ownership — not every security decision belongs to AppSec |
+| Tools | Integrate findings into developer workflows; tune noise ruthlessly |
 
 
 # Adaptation as the Core Skill (5)
