@@ -82,7 +82,7 @@ Ideas
 
 * Introduce a lightweight Friction Audit concept -- A quick internal exercise teams can run to identify where AppSec is creating the most drag and why (they'll probably have a list already).
 * The security champion model as a cultural bridge -- Embedding security-minded devs in teams (or training the devs with interest in security) rather than relying solely on a central AppSec Dept.
-* 
+* Leaderboards (wihtout metrics) -- Show the ranking of dev teams working closest with security, by e.g. proportion of repos orchestrated, number of security trainings completed, proportion of findings resolved before prod, etc.
 
 # A Pragmatic Framework (5)
 
