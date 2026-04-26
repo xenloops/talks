@@ -48,6 +48,10 @@ Framing Risk in Terms Development Leads Care About
 
 What "integrated" really means vs. what it usually looks like in practice (bolted-on vs. baked-in)
 
+* "We pass zip files around."
+* "We check the code out when someone's working on it, and that blocks others from changing it."
+* 
+
 Principles for low-friction tooling:
 
 * Surface findings where developers work (IDE plugins, PR comments, not a separate portal)
