@@ -147,6 +147,8 @@ Adding another tool offers devs:
 * Metrics -- yet another dimension in which to be judged
 
 
+
+
 # Sources
 [1] T. Anderson, "Everyone cites that 'bugs are 100x more expensive to fix in production' research, but the study might not even exist," The Register, Jul. 22, 2021. [Online]. Available: https://www.theregister.com/2021/07/22/bugs_expense_bs. [Accessed: Apr. 23, 2026].
 
