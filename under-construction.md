@@ -74,7 +74,7 @@ What "integrated" really means vs. what it usually looks like in practice (bolte
 
 How to speak with...
 
-* **Developers** Lead with empathy, not compliance. -- "Here's what this would cost you if it hits prod" beats "the policy requires this."
+* **Developers** Lead with empathy, not compliance. -- "Here's what this would cost you if it hits prod (time, missed features, meetings)" beats "the policy requires this."
 * **Engineering leads** Translate risk into delivery risk. -- Unpatched vulnerabilities are technical debt with an unpredictable interest rate.
 * **Leadership** Connect scanning to business outcomes -- Liability, brand, customer trust, regulatory posture. Avoid security theater or FOGH (Fear of Getting Hit); propose measurable outcomes.
 
