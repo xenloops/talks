@@ -19,7 +19,7 @@ Security wants fewer risks. Devs want fewer blockers. Why are these treated as o
 # Why Devs Push Back (10)
 ...or totally blow AppSec off
 
-* Too many tools! -- One for defects in custom code, one for defects in third-party libraries, one for hard-coded secrets getting checked in (one each if lucky!)
+* Too many tools! -- One for defects in custom code, one for defects in third-party libraries, one for hard-coded secrets getting checked in (only one each if lucky -- what happens when one dept installs SonarQube?). Forget about adding Yet Another Tool! That brings with it pleadings, then mandates, then trainings, then metrics, then leadership attention.
 * Notification fatigue -- Every finding is an alert
 * Backlog fatigue -- When is every finding the tool injects supposed to be remediated, with all these other priorities?
 * Meeting fatigue -- Between standups, sprint planning, sprint refinement, retrospectives, PI pre-planning, PI planning.... do you really want to call them into another meeting about one part of the job?
@@ -107,15 +107,6 @@ The goal isn't a frictionless AppSec program. It's friction in the right places 
 
 # Misc notes
 
-# The YAT Effect
-
-Developers hear that Security is:
-
-* Installing Yet Another Tool*
-* Mandating the tool
-* Offering trainings
-
-*That development didn't ask for
 
 # Development pressures
 ### (What's the big deal?)
