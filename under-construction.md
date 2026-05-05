@@ -8,6 +8,10 @@ Title
 Blah blah blah
 Contact info
 
+# WARNING
+
+The following may sound a lot like a diatribe against everything we hold dear.
+
 # The Build is Broken
 ...and it's not the scanner's fault
 
@@ -19,10 +23,29 @@ Security wants fewer risks. Devs want fewer blockers. Why are these treated as o
 # Why Devs Push Back (10)
 ...or totally blow AppSec off
 
-* Too many tools! -- One for defects in custom code, one for defects in third-party libraries, one for hard-coded secrets getting checked in (only one each if lucky -- what happens when one dept installs SonarQube?). Forget about adding Yet Another Tool! That brings with it pleadings, then mandates, then trainings, then metrics, then leadership attention.
-* Notification fatigue -- Every finding is an alert
+* Too many tools! -- One for defects in custom code, one for defects in third-party libraries, one for hard-coded secrets getting checked in (only one each if lucky -- what happens when one dept installs SonarQube?). Forget about adding Yet Another Tool! That brings with it pleadings, then mandates, then trainings, then metrics, then leadership attention. Adding another tool offers IAM headaches, another source of support calls, another time-sucking UI to navigate.
+* Notification fatigue -- Every finding is an alert!
 * Backlog fatigue -- When is every finding the tool injects supposed to be remediated, with all these other priorities?
 * Meeting fatigue -- Between standups, sprint planning, sprint refinement, retrospectives, PI pre-planning, PI planning.... do you really want to call them into another meeting about one part of the job?
+
+# Face it, developers have enough:
+
+* Notifications
+* Meetings
+* Tasks
+* Nags
+
+# How do we try to help?
+
+* Tool integration
+* Trainings
+* Metrics
+
+# But...
+
+* Tool integration -- some installation required
+* Trainings -- great, another time-suck
+* Metrics -- yet another dimension in which to be judged
 
 ## The Psychology of Security Friction
 
@@ -111,31 +134,7 @@ The goal isn't a frictionless AppSec program. It's friction in the right places 
 # Development pressures
 ### (What's the big deal?)
 
-Developers have enough:
 
-* Notifications
-* Meetings
-* Tasks
-
-# YAT
-
-Adding another tool offers devs:
-
-* AuthN / authZ headaches
-* Another source of support calls
-* Another time-sucking UI to navigate
-
-# How do we try to help?
-
-* Tool integration
-* Trainings
-* Metrics
-
-# But...
-
-* Tool integration -- some installation required
-* Trainings -- great, another time-suck
-* Metrics -- yet another dimension in which to be judged
 
 
 
