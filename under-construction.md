@@ -81,10 +81,9 @@ What "integrated" really means vs. what it usually looks like in practice (bolte
 ## Maturity levels (informally) -- Survey: where does your org sit?
 
 1. "We pass zip files around." -- Sneakernet
-1. "We're fully GIT-ified, but what's this I hear about secure code?"
 1. "Scanning happens before pushing to Prod; we have a time-to-fix policy based on severity."
-1. "Scanning happens before pushing to Prod, and blocks the build." -- This by now should be a legacy model. 
-1. "We do pre-commit checks for all security tests." -- Better...
+1. "Scanning happens before pushing to Prod, and blocks the build."
+1. "We do pre-commit checks for all security tests."
 1. "All our tools are in the devs' IDEs." -- The tools you use have IDE plugins that scan automatically; think like a spell-checker for code. The tools might even recommend fixes in context. Allows devs to fix potential defects while what they wrote is still fresh in mind, not from three PIs ago. Convincing devs of this may take effort! Some really don't like other teams messing in their dev tools.
 
 ## Principles for low-friction tooling
