@@ -91,6 +91,20 @@ What "integrated" really means vs. what it usually looks like in practice (bolte
 * Convince dev teams that it's in their best interest. -- Do you want to know of and fix an issue locally, or wait until it blocks you and your PM schedules a meeting with security?
 * Be reasonable -- Not every security check belongs in pre-commit or the IDE. Secrets, SAST (at least for criticals), yes; pen-testing or DAST takes longer, and SCA results usually don't change frequently. How about developer security training in the workflow?
 
+## Enshiftifying the SDLC
+
+Yes, shift left, but don't throw everything into pre-commit. The scans that belong there are:
+
+* Quick -- e.g. 5 seconds or less
+* Low false-positives -- so not SAST?
+* Actionable immediately -- no need for back-and-forth with security
+
+Good candidates:
+
+* Secret scanning
+* Highly focused, lightweight SAST -- put the riskiest, highest confidence rules here
+* IaC linting -- limited ruleset of course
+
 [Concrete tool-agnostic example: what a well-integrated SAST/SCA setup looks like in a CI/CD pipeline]
 
 # Bridging AppSec, Engineering, and Leadership (10)
