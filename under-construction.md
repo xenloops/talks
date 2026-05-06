@@ -8,9 +8,15 @@ Title
 Blah blah blah
 Contact info
 
-# WARNING
 
-The following may sound a lot like a diatribe against everything we hold dear.
+# Premise
+
+To devs, AppSec can come across less like a partner and more like a Vogon:
+"Not actually evil, but bad-tempered, bureaucratic, officious and callous."
+
+
+D. Adams, _The Hitchhiker's Guide to the Galaxy_. London: Pan Books, 1979.
+
 
 # The Build is Broken
 ...and it's not the scanner's fault
@@ -63,9 +69,10 @@ Framing Risk in Terms Development Leads Care About
 
 * The threat landscape shifts faster than SDLCs -- were designed for. This is the argument for shifting left.
 * Regulatory and liability pressure is increasing -- PCI-DSS, SOC 2, CISA, litigious customers, etc.
-* Cost of late-cycle remediation vs. early-cycle (but... [1]) -- Concrete, well-known, leadership-friendly argument (IBM/NIST data on cost-to-fix by phase)
+* Cost of late-cycle remediation vs. early-cycle * -- Concrete, well-known, leadership-friendly argument: Famous IBM/NIST study on cost-to-fix by phase (although it might be fabricated, it makes a good point).
 * Key reframe: it's not AppSec's problem -- But AppSec was formed to own the engineering quality control problem
 
+* T. Anderson, "Everyone cites that 'bugs are 100x more expensive to fix in production' research, but the study might not even exist," The Register, Jul. 22, 2021. [Online]. Available: https://www.theregister.com/2021/07/22/bugs_expense_bs. [Accessed: Apr. 23, 2026].
 
 # The Pipeline is Your Friend (15)
 
@@ -140,7 +147,4 @@ Concrete conversation starters to use next week
 
 The goal isn't a frictionless AppSec program. It's friction in the right places — and acceleration everywhere else.
 
-
-# Sources
-[1] T. Anderson, "Everyone cites that 'bugs are 100x more expensive to fix in production' research, but the study might not even exist," The Register, Jul. 22, 2021. [Online]. Available: https://www.theregister.com/2021/07/22/bugs_expense_bs. [Accessed: Apr. 23, 2026].
 
