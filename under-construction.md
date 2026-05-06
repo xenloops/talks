@@ -141,18 +141,6 @@ Concrete conversation starters to use next week
 The goal isn't a frictionless AppSec program. It's friction in the right places — and acceleration everywhere else.
 
 
-
-# Misc notes
-
-
-# Development pressures
-### (What's the big deal?)
-
-
-
-
-
-
 # Sources
 [1] T. Anderson, "Everyone cites that 'bugs are 100x more expensive to fix in production' research, but the study might not even exist," The Register, Jul. 22, 2021. [Online]. Available: https://www.theregister.com/2021/07/22/bugs_expense_bs. [Accessed: Apr. 23, 2026].
 
