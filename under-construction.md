@@ -78,16 +78,14 @@ Framing Risk in Terms Development Leads Care About
 
 What "integrated" really means vs. what it usually looks like in practice (bolted-on vs. baked-in)
 
-## Maturity levels (informally):
+## Maturity levels (informally) -- Survey: where does your org sit?
 
 1. "We pass zip files around." -- Sneakernet
-1. "We check the code out when someone's working on it, and that blocks others from changing it." -- TFS way?
 1. "We're fully GIT-ified, but what's this I hear about secure code?"
-1. "Scanning happens before pushing to Prod; we have a TTF policy based on severity."
+1. "Scanning happens before pushing to Prod; we have a time-to-fix policy based on severity."
 1. "Scanning happens before pushing to Prod, and blocks the build." -- This by now should be a legacy model. 
 1. "We do pre-commit checks for all security tests." -- Better...
-1. "All our tools are in the devs' IDEs." -- All of the tools you use should have IDE plugins that scan automatically -- think like a spell-checker for code. Allows devs to fix potential defects while what they wrote is still fresh in mind, not from three PIs ago. Convincing devs of this may take effort! Some really don't like other teams messing in their dev tools.
-1. "Tools in the IDE flag findings _and_ recommend fixes in context." -- This is state-of-the-art. As long as the LLM-generated suggestions are good ones.
+1. "All our tools are in the devs' IDEs." -- The tools you use have IDE plugins that scan automatically; think like a spell-checker for code. The tools might even recommend fixes in context. Allows devs to fix potential defects while what they wrote is still fresh in mind, not from three PIs ago. Convincing devs of this may take effort! Some really don't like other teams messing in their dev tools.
 
 ## Principles for low-friction tooling
 
