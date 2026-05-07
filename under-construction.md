@@ -1,4 +1,5 @@
-Title
+v20260506.4
+Title slide
 # Why People Hate App Sec
 ...and the Tools They Ride In On
 
@@ -17,6 +18,7 @@ To devs, AppSec can come across less like a partner and more like a Vogon:
 
 D. Adams, _The Hitchhiker's Guide to the Galaxy_. London: Pan Books, 1979.
 
+["Resistance is useless!" scene from TV show]
 
 # The Build is Broken
 ...and it's not the scanner's fault
@@ -32,7 +34,7 @@ Security wants fewer risks. Devs want fewer blockers. Why are these treated as o
 * Too many tools! -- One for defects in custom code, one for defects in third-party libraries, one for hard-coded secrets getting checked in (only one each if lucky -- what happens when one dept installs SonarQube?). Forget about adding Yet Another Tool! That brings with it pleadings, then mandates, then trainings, then metrics, then leadership attention. Adding another tool offers IAM headaches, another source of support calls, another time-sucking UI to navigate.
 * Notification fatigue -- Every finding is an alert!
 * Backlog fatigue -- When is every finding the tool injects supposed to be remediated, with all these other priorities?
-* Meeting fatigue -- Between standups, sprint planning, sprint refinement, retrospectives, PI pre-planning, PI planning.... do you really want to call them into another meeting about one part of the job?
+* Meeting fatigue -- Between standups, sprint planning, sprint refinement, retrospectives, PI pre-planning, PI planning.... This is peak Vogon bureaucracy! Do you really want to call them into another meeting about one part of their job?
 
 # Face it, developers have enough:
 
@@ -41,22 +43,16 @@ Security wants fewer risks. Devs want fewer blockers. Why are these treated as o
 * Tasks
 * Nags
 
-# How do we try to help?
+# How do we try to help but utterly fail?
 
-* Tool integration
-* Trainings
-* Metrics
-
-# But...
-
-* Tool integration -- some installation required
-* Trainings -- great, another time-suck
-* Metrics -- yet another dimension in which to be judged
+* Tool integration -- some assembly required, probably with fun authentication tweaking involved and occasional IDE crashes.
+* Trainings -- great, another time-suck, especially when it's the same OWASP Top 10 module they took in 2019.
+* Metrics -- let's embarrass dev teams for using 150 slightly outdated libraries, but ignore the fact that they're working with their security champion, coming to AppSec office hours with questions, and lost half their staff in the last RIF.
 
 ## The Psychology of Security Friction [separate slides?]
 
 * Incentive misalignment -- Devs are measured on velocity and features shipped, by the sprint. Security debt is invisible until it isn't. Nobody gets a bonus for a CVE they prevented. (Dilbert strip with Wally "writing himself an RV")
-* The "gate" mental model -- Security as a checkpoint at the end of the SDLC trains devs to see it as a last-minute tax, not a design input.
+* The "gate" mental model -- More Vogon behavior. Security as a checkpoint at the end of the SDLC trains devs to see it as a last-minute tax, not a design input.
 * Alert fatigue and tool noise -- when everything is P1, nothing is. We've all heard complaints about false positives from SAST tools. Tools that produce too much noise get ignored. Tuning tool output or focusing on the risk important to the business is essential! Can't catch 'em all.
 * The vocabulary gap -- AppSec speaks in CVSS, CWE, and TTF; devs speak in sprint velocity and backlog debt. Mutually unintelligible.
 * The BISS Model -- AppSec says "do it Because I Said So", devs really need to know how big a risk the defect is [a real and common failure mode worth naming].
@@ -67,7 +63,7 @@ Quick poll: How many have had a security finding closed -- or closed one -- as "
 # What's at Stake (5)
 Framing Risk in Terms Development Leads Care About
 
-* The threat landscape shifts faster than SDLCs -- were designed for. This is the argument for shifting left.
+* The threat landscape shifts faster than SDLCs were designed for -- This is the argument for shifting left.
 * Regulatory and liability pressure is increasing -- PCI-DSS, SOC 2, CISA, litigious customers, etc.
 * Cost of late-cycle remediation vs. early-cycle * -- Concrete, well-known, leadership-friendly argument: Famous IBM/NIST study on cost-to-fix by phase (although it might be fabricated, it makes a good point).
 * Key reframe: it's not AppSec's problem -- But AppSec was formed to own the engineering quality control problem
@@ -88,9 +84,11 @@ What "integrated" really means vs. what it usually looks like in practice (bolte
 
 ## Principles for low-friction tooling
 
+Some distinctly anti-Vogon ideals:
+
 * Surface findings where developers work -- IDE plugins, PR comments, not a separate portal
 * Signal-to-noise tuning -- Suppress accepted risks so new findings land with impact.
-* Work with the business -- Flag the findings that business cares about. If Criticals and Highs are the only findings that business wants resolved, don't even show Mediums and lower to the devs.
+* Work with the business -- Flag the findings that business cares about. If Criticals and Highs are the only findings that business wants resolved, don't even show Mediums and lower to the devs. 
 * Actionable output -- Not just "it's vulnerable" but "here's a fix, here's why it matters, here's the blast radius"
 * Convince dev teams that it's in their best interest. -- Do you want to know of and fix an issue locally, or wait until it blocks you and your PM schedules a meeting with security?
 * Be reasonable -- Not every security check belongs in pre-commit or the IDE. Secrets, SAST (at least for criticals), yes; pen-testing or DAST takes longer, and SCA results usually don't change frequently. How about developer security training in the workflow?
@@ -115,9 +113,9 @@ Good candidates:
 
 How to speak with...
 
-* **Developers** Lead with empathy, not compliance. -- "Here's what this would cost you if it hits prod (time, missed features, meetings)" beats "the policy requires this."
-* **Engineering leads** Translate risk into delivery risk. -- Unpatched vulnerabilities are technical debt with an unpredictable interest rate.
-* **Leadership** Connect scanning to business outcomes -- Liability, brand, customer trust, regulatory posture. Avoid security theater or FOGH (Fear of Getting Hit); propose measurable outcomes.
+* **Developers:** Lead with empathy, not compliance. -- "Here's what this would cost you if it hits prod (time, missed features, meetings)" beats "the policy requires this." In short, don't be a Vogon.
+* **Engineering leads:** Translate risk into delivery risk. -- Unpatched vulnerabilities are technical debt with an unpredictable interest rate.
+* **Leadership:** Connect scanning to business outcomes -- Liability, brand, customer trust, regulatory posture. Avoid security theater or FOGH (Fear of Getting Hit); propose measurable outcomes.
 
 Ideas
 
