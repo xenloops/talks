@@ -55,7 +55,7 @@ Security wants fewer risks. Devs want fewer blockers. Why are these treated as o
 * Incentive misalignment -- Devs are measured on velocity and features shipped, by the sprint. Security debt is invisible until it isn't. Nobody gets a bonus for a CVE they prevented. (Dilbert strip with Wally "writing himself an RV")
 * The "gate" mental model -- More Vogon behavior. Security as a checkpoint at the end of the SDLC trains devs to see it as a last-minute tax, not a design input.
 * Alert fatigue and tool noise -- when everything is P1, nothing is. We've all heard complaints about false positives from SAST tools. Tools that produce too much noise get ignored. Tuning tool output or focusing on the risk important to the business is essential! Can't catch 'em all.
-* The vocabulary gap -- AppSec speaks in CVSS, CWE, and TTF; devs speak in sprint velocity and backlog debt. Mutually unintelligible.
+* The vocabulary gap -- AppSec speaks in CVSS, CWE, and time-to-fix; devs speak in sprint velocity and backlog debt. Mutually unintelligible.
 * The BISS Model -- AppSec says "do it Because I Said So", devs really need to know how big a risk the defect is [a real and common failure mode worth naming].
 
 Quick poll: How many have had a security finding closed -- or closed one -- as "won't fix" with no conversation?
@@ -116,7 +116,7 @@ How to speak with...
 
 * **Developers:** Lead with empathy, not compliance. -- "Here's what this would cost you if it hits prod (time, missed features, meetings)" beats "the policy requires this." In short, don't be a Vogon.
 * **Engineering leads:** Translate risk into delivery risk. -- Unpatched vulnerabilities are technical debt with an unpredictable interest rate.
-* **Leadership:** Connect scanning to business outcomes -- Liability, brand, customer trust, regulatory posture. Avoid security theater or FOGH (Fear of Getting Hit); propose measurable outcomes.
+* **Leadership:** Connect scanning to business outcomes -- Liability, brand, customer trust, regulatory posture. Avoid security theater or fearmongering; propose measurable outcomes.
 
 Ideas
 
@@ -141,6 +141,6 @@ The orgs that adapt fastest aren't the ones with the most tools — they're the 
 
 Concrete conversation starters to use next week
 
-The goal isn't a frictionless AppSec program. It's friction in the right places — and acceleration everywhere else.
+The goal isn't a frictionless AppSec program. The goal is an AppSec program that doesn't read like Vogon poetry. It's friction in the right places, and acceleration everywhere else.
 
 
