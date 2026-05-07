@@ -53,13 +53,13 @@ Security wants fewer risks. Devs want fewer blockers. Why are these treated as o
 * Trainings -- great, another time-suck
 * Metrics -- yet another dimension in which to be judged
 
-## The Psychology of Security Friction
+## The Psychology of Security Friction [separate slides?]
 
 * Incentive misalignment -- Devs are measured on velocity and features shipped, by the sprint. Security debt is invisible until it isn't. Nobody gets a bonus for a CVE they prevented. (Dilbert strip with Wally "writing himself an RV")
 * The "gate" mental model -- Security as a checkpoint at the end of the SDLC trains devs to see it as a last-minute tax, not a design input.
 * Alert fatigue and tool noise -- when everything is P1, nothing is. We've all heard complaints about false positives from SAST tools. Tools that produce too much noise get ignored. Tuning tool output or focusing on the risk important to the business is essential! Can't catch 'em all.
 * The vocabulary gap -- AppSec speaks in CVSS, CWE, and TTF; devs speak in sprint velocity and backlog debt. Mutually unintelligible.
-* The BISS Model -- AppSec says "do it Because I Said So", devs really need to know how big a risk the defect is.
+* The BISS Model -- AppSec says "do it Because I Said So", devs really need to know how big a risk the defect is [a real and common failure mode worth naming].
 
 Quick poll: How many have had a security finding closed -- or closed one -- as "won't fix" with no conversation?
 
@@ -123,7 +123,7 @@ Ideas
 
 * Introduce a lightweight Friction Audit concept -- A quick internal exercise teams can run to identify where AppSec is creating the most drag and why (they'll probably have a list already).
 * The security champion model as a cultural bridge -- Embedding security-minded devs in teams (or training the devs with interest in security) rather than relying solely on a central AppSec Dept.
-* Leaderboards (wihtout metrics) -- Show the ranking of dev teams working closest with security, by e.g. proportion of repos orchestrated, number of security trainings completed, proportion of findings resolved before prod, etc.
+* Recognition-first metrics -- Show the ranking of dev teams working closest with security, by e.g. proportion of repos orchestrated, number of security trainings completed, proportion of findings resolved before prod, etc. These are metrics that reward overall progress, not perfection.
 
 # A Pragmatic Framework (5)
 
