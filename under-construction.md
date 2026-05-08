@@ -4,11 +4,13 @@ Title slide
 # Why People Hate App Sec
 ...and the Tools They Ride In On
 
-
-
 # About the speaker
-Blah blah blah
-Contact info
+
+* 20ish years developing insecure software
+* 15ish years in AppSec
+* BA CSci, MS SE, CISSP
+
+[Contact info]
 
 
 # Premise
