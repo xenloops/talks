@@ -9,6 +9,7 @@ Title slide
 * 20ish years developing insecure software
 * 15ish years in AppSec
 * BA CSci, MS SE, CISSP
+* Chickens, astronomy, cribbage
 
 [Contact info]
 
