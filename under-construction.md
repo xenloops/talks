@@ -1,4 +1,4 @@
-```v20260506.5```
+```v20260507.1```
 
 Title slide
 # Why People Hate App Sec
@@ -77,11 +77,12 @@ What "integrated" really means vs. what it usually looks like in practice (bolte
 
 ## Maturity levels (informally) -- Survey: where does your org sit?
 
-1. "We pass zip files around." -- Sneakernet
-1. "Scanning happens before pushing to Prod; we have a time-to-fix policy based on severity."
-1. "Scanning happens before pushing to Prod, and blocks the build."
-1. "We do pre-commit checks for all security tests."
-1. "All our tools are in the devs' IDEs." -- The tools you use have IDE plugins that scan automatically; think like a spell-checker for code. The tools might even recommend fixes in context. Allows devs to fix potential defects while what they wrote is still fresh in mind, not from three PIs ago. Convincing devs of this may take effort! Some really don't like other teams messing in their dev tools.
+0. "We pass zip files around." -- Sneakernet
+1. "We use git, but no security." -- No scanning in the pipeline, maybe even no PR approvals. Right to prod.
+2. "Scanning happens before pushing to Prod; we have a time-to-fix policy based on severity."
+3. "Scanning happens before pushing to Prod, and blocks the build."
+4. "We do pre-commit checks for all security tests."
+5. "All our tools are in the devs' IDEs." -- The tools you use have IDE plugins that scan automatically; think like a spell-checker for code. The tools might even recommend fixes in context. Allows devs to fix potential defects while what they wrote is still fresh in mind, not from three PIs ago. Convincing devs of this may take effort! Some really don't like other teams messing in their dev tools.
 
 ## Principles for low-friction tooling
 
@@ -139,8 +140,8 @@ AppSec as an Enabler: A Model You Can Take Back Next Week
 
 The orgs that adapt fastest aren't the ones with the most tools — they're the ones that removed the organizational friction preventing good security hygiene
 
-Concrete conversation starters to use next week
+Concrete conversation starters to use next week...
 
-The goal isn't a frictionless AppSec program. The goal is an AppSec program that doesn't read like Vogon poetry. It's friction in the right places, and acceleration everywhere else.
+The goal isn't a frictionless AppSec program. It's friction in the right places, and acceleration everywhere else. In other words, an AppSec program that doesn't read like Vogon poetry.
 
 
