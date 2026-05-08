@@ -1,4 +1,4 @@
-```v20260508.1```
+```v20260508.2```
 
 Title slide
 # Why People Hate App Sec
@@ -40,28 +40,24 @@ Security wants fewer risks. Devs want fewer blockers. Why are these treated as o
 * Backlog fatigue -- When is every finding the tool injects supposed to be remediated, with all these other priorities?
 * Meeting fatigue -- Between standups, sprint planning, sprint refinement, retrospectives, PI pre-planning, PI planning.... This is peak Vogon bureaucracy! Do you really want to call them into another meeting about one part of their job?
 
-# Face it, developers have enough:
-
-* Notifications
-* Meetings
-* Tasks
-* Nags
-
 # How do we try to help but utterly fail?
 
 * Tool integration -- some assembly required, probably with fun authentication tweaking involved and occasional IDE crashes.
 * Trainings -- great, another time-suck, especially when it's the same OWASP Top 10 module they took in 2019.
 * Metrics -- let's embarrass dev teams for using 150 slightly outdated libraries, but ignore the fact that they're working with their security champion, coming to AppSec office hours with questions, and lost half their staff in the last RIF.
 
-## The Psychology of Security Friction [separate slides?]
+## The Psychology of Security Friction
 
-* Incentive misalignment -- Devs are measured on velocity and features shipped, by the sprint. Security debt is invisible until it isn't. Nobody gets a bonus for a CVE they prevented. (Dilbert strip with Wally "writing himself an RV")
+* Incentive misalignment -- Devs are measured on velocity and features shipped, by the sprint. Security debt is invisible until it isn't. Nobody gets a bonus for a CVE they prevented. Imagine that performance review...
 * The "gate" mental model -- More Vogon behavior. Security as a checkpoint at the end of the SDLC trains devs to see it as a last-minute tax, not a design input.
 * Alert fatigue and tool noise -- when everything is P1, nothing is. We've all heard complaints about false positives from SAST tools. Tools that produce too much noise get ignored. Tuning tool output or focusing on the risk important to the business is essential! Can't catch 'em all.
 * The vocabulary gap -- AppSec speaks in CVSS, CWE, and time-to-fix; devs speak in sprint velocity and backlog debt. Mutually unintelligible.
-* The BISS Model -- AppSec says "do it Because I Said So", devs really need to know how big a risk the defect is [a real and common failure mode worth naming].
 
-Quick poll: How many have had a security finding closed -- or closed one -- as "won't fix" with no conversation?
+# The BISS Model
+
+"Because I Said So" -- Or "Because the tool reports it" or "Because... Metrics", something along those lines. AppSec says to do it for... reasons, but devs really do need to know how big a risk the defect is. 
+
+Quick poll: How many have had a security finding closed, or have closed one, as "won't fix" with no conversation?
 
 
 # What's at Stake (5)
@@ -84,8 +80,7 @@ What "integrated" really means vs. what it usually looks like in practice (bolte
 1. "We use git, but no security." -- No scanning in the pipeline, maybe even no PR approvals. Right to prod.
 2. "Scanning happens before pushing to Prod; we have a time-to-fix policy based on severity."
 3. "Scanning happens before pushing to Prod, and blocks the build."
-4. "We do pre-commit checks for all security tests."
-5. "All our tools are in the devs' IDEs." -- The tools you use have IDE plugins that scan automatically; think like a spell-checker for code. The tools might even recommend fixes in context. Allows devs to fix potential defects while what they wrote is still fresh in mind, not from three PIs ago. Convincing devs of this may take effort! Some really don't like other teams messing in their dev tools.
+4. "All our tools are in the devs' IDEs." -- The tools you use have IDE plugins that scan automatically; think like a spell-checker for code. The tools might even recommend fixes in context. Allows devs to fix potential defects while what they wrote is still fresh in mind, not from three PIs ago. Convincing devs of this may take effort! Some really don't like other teams messing in their dev tools.
 
 ## Principles for low-friction tooling
 
@@ -145,7 +140,7 @@ The orgs that adapt fastest aren't the ones with the most tools — they're the 
 
 # Concrete conversation starters to use next week
 
-* **With developers:** What's your biggest beef with the security tools we use here, or in the way we use them? -- Shows Security is willing to listen to the people who potentially generate risk, and adapt.
+* **With developers:** What's the one thing our tools do that wastes the most of your time? -- Shows Security is willing to listen to the people who potentially generate risk, and adapt.
 * **With engineering leads:** Let's spend 20 minutes mapping which security issues are actual delivery risk. -- Reframes security as a sprint planning input, not an audit. The 20-minute constraint signals respect for their time.
 * **With leadership:** We're spending a lot on tools. Let's talk about whether we're spending on the right friction points. -- Shows AppSec is cost-conscious and strategic, rather than a compliance checkbox.
 
