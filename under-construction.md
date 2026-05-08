@@ -140,7 +140,13 @@ AppSec as an Enabler: A Model You Can Take Back Next Week
 
 The orgs that adapt fastest aren't the ones with the most tools — they're the ones that removed the organizational friction preventing good security hygiene
 
-Concrete conversation starters to use next week...
+# Concrete conversation starters to use next week
+
+* With developers: What's your biggest beef with the security tools we use here, or in the way we use them? -- Shows Security is willing to listen to the people who potentially generate risk, and adapt.
+* With engineering leads: Let's spend 20 minutes mapping which security issues are actual delivery risk. -- Reframes security as a sprint planning input, not an audit. The 20-minute constraint signals respect for their time.
+* 
+
+# Conclusion
 
 The goal isn't a frictionless AppSec program. It's friction in the right places, and acceleration everywhere else. In other words, an AppSec program that doesn't read like Vogon poetry.
 
