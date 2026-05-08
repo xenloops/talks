@@ -131,7 +131,7 @@ AppSec as an Enabler: A Model You Can Take Back Next Week
 
 | Layer | Activity |
 |--|--|
-| People/Culture | Shift the narrative from "security says no" to "security helps us ship confidently". |
+| People | Shift the narrative from "security says no" to "security helps us ship safer". |
 | Process | Define clear ownership. Not every security decision belongs to AppSec. |
 | Tools | Integrate findings into developer workflows; tune the noise out! |
 
@@ -142,9 +142,9 @@ The orgs that adapt fastest aren't the ones with the most tools — they're the 
 
 # Concrete conversation starters to use next week
 
-* With developers: What's your biggest beef with the security tools we use here, or in the way we use them? -- Shows Security is willing to listen to the people who potentially generate risk, and adapt.
-* With engineering leads: Let's spend 20 minutes mapping which security issues are actual delivery risk. -- Reframes security as a sprint planning input, not an audit. The 20-minute constraint signals respect for their time.
-* 
+* **With developers:** What's your biggest beef with the security tools we use here, or in the way we use them? -- Shows Security is willing to listen to the people who potentially generate risk, and adapt.
+* **With engineering leads:** Let's spend 20 minutes mapping which security issues are actual delivery risk. -- Reframes security as a sprint planning input, not an audit. The 20-minute constraint signals respect for their time.
+* **With leadership:** We're spending a lot on tools. Let's talk about whether we're spending on the right friction points. -- Shows AppSec is cost-conscious and strategic, rather than a compliance checkbox.
 
 # Conclusion
 
