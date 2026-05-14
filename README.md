@@ -2,7 +2,9 @@
 
 ## Why People Hate AppSec, and the Tools They Ride In On
 
-Secure 360, May 2026
+Secure360, May 2026
+
+[Slides](2026-S360-Why-People-Hate-AppSec.pdf)
 
 ### Abstract
 
@@ -25,20 +27,38 @@ Objectives:
 ## Patching the Psyche Against Cybersecurity Stress
 ### _or: How I learned to stop worrying and love the job_
 
-Secure 360 2025
-
-Abstract: Working in the technology sector, especially in security, presents distinct and often overwhelming stresses. From the high stakes of defending against persistent threats to the mental strain of imposter syndrome and the relentless demands of working late nights and weekends, professionals in this field face challenges that go beyond technical expertise. These pressures are often exacerbated by arbitrary and shifting priorities, creating an environment of unpredictability and strain. This talk examines the root causes of stress in the field, including these unique challenges, and provides actionable strategies for both individuals and leaders to foster resilience and build a more balanced and productive team environment.
+Secure360, May 2025
 
 [Slides](2025-S360-Patching-the-Psyche.pdf)
+
+Abstract: Working in the technology sector, especially in security, presents distinct and often overwhelming stresses. From the high stakes of defending against persistent threats to the mental strain of imposter syndrome and the relentless demands of working late nights and weekends, professionals in this field face challenges that go beyond technical expertise. These pressures are often exacerbated by arbitrary and shifting priorities, creating an environment of unpredictability and strain. This talk examines the root causes of stress in the field, including these unique challenges, and provides actionable strategies for both individuals and leaders to foster resilience and build a more balanced and productive team environment.
 
 ---
 
 ## The Guard at the Gate: Security Risks in AI-Generated Code
 ### _or: Shall We Play a Game?_
 
-Secure 360 2025
+Secure360, May 2025
+
+[Slides](2025-S360-Guard-at-the-Gate.pdf)
 
 Abstract: The rise of large language models (LLMs) has enhanced software development, enabling developers to generate code quickly and efficiently. However, their integration into coding workflows presents significant risks. This talk explores the evolution of LLMs in software generation, focusing on their initial capabilities, the incorporation of security tools to improve code quality, and the development of guardrails to mitigate misuse, such as the creation of malware. Through real-world examples and a critical lens, this session highlights the ethical, technical, and security challenges inherent in using LLMs to write code, offering practical guidance for responsible adoption.
 
-[Slides](2025-S360-Guard-at-the-Gate.pdf)
+---
+
+# An AppSec cat attempts to eat the AppSec dog food: CD edition
+
+Secure360/Career360, May 2024
+
+[Slides]()
+
+---
+
+# An AppSec cat attempts to eat the AppSec dog food: CI edition
+
+Secure360/Career360, May 2023
+
+[Slides](https://github.com/xenloops/talk-dogfood-pipeline-ci/blob/main/start_here.md)
+
+Abstract: A common refrain in the application security profession these days is to meet developers where they work by embedding security tools into the SDLC. But just how much effort does it take to do this? How confident can you be in recommending a course of action you have not tried? This talk details the path the speaker took in implementing and exercising free and open-source security tools, and will include a basic how-to as well as lessons learned so you can do the same (and yes, that means actual documentation). It will include what is sure to be an entertaining live demo.
 
