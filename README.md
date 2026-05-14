@@ -4,7 +4,7 @@
 
 Secure360, May 2026
 
-[Slides](2026-S360-Why-People-Hate-AppSec.pdf)
+[Slides](2026-S360-Why-People-Hate-AppSec.pdf) - [Conference link](https://www.secure360.org/event/2026Secure360/sessions/SESKQNWFAQQKRBHV2)
 
 ### Abstract
 
