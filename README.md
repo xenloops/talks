@@ -4,7 +4,7 @@
 
 Secure360, May 2026
 
-[Slides](2026-S360-Why-People-Hate-AppSec.pdf) - [Conference link](https://www.secure360.org/event/2026Secure360/sessions/SESKQNWFAQQKRBHV2)
+[Slides](slides/2026-S360-Why-People-Hate-AppSec.pdf) - [Notes](notes/2026-S360-Why-People-Hate-AppSec.md) - [Conference link](https://www.secure360.org/event/2026Secure360/sessions/SESKQNWFAQQKRBHV2)
 
 ### Abstract
 
@@ -29,7 +29,7 @@ Objectives:
 
 Secure360, May 2025
 
-[Slides](2025-S360-Patching-the-Psyche.pdf)
+[Slides](2025-S360-Patching-the-Psyche.pdf) - [Conference link](https://www.secure360.org/event/2025Secure360/schedule/SESRXGHPIX3P83X9I)
 
 Abstract: Working in the technology sector, especially in security, presents distinct and often overwhelming stresses. From the high stakes of defending against persistent threats to the mental strain of imposter syndrome and the relentless demands of working late nights and weekends, professionals in this field face challenges that go beyond technical expertise. These pressures are often exacerbated by arbitrary and shifting priorities, creating an environment of unpredictability and strain. This talk examines the root causes of stress in the field, including these unique challenges, and provides actionable strategies for both individuals and leaders to foster resilience and build a more balanced and productive team environment.
 
@@ -40,7 +40,7 @@ Abstract: Working in the technology sector, especially in security, presents dis
 
 Secure360, May 2025
 
-[Slides](2025-S360-Guard-at-the-Gate.pdf)
+[Slides](2025-S360-Guard-at-the-Gate.pdf) - [Conference link](https://www.secure360.org/event/2025Secure360/schedule/SES6XVKHHA2PBPZZI)
 
 Abstract: The rise of large language models (LLMs) has enhanced software development, enabling developers to generate code quickly and efficiently. However, their integration into coding workflows presents significant risks. This talk explores the evolution of LLMs in software generation, focusing on their initial capabilities, the incorporation of security tools to improve code quality, and the development of guardrails to mitigate misuse, such as the creation of malware. Through real-world examples and a critical lens, this session highlights the ethical, technical, and security challenges inherent in using LLMs to write code, offering practical guidance for responsible adoption.
 
