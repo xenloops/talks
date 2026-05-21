@@ -3,6 +3,7 @@
 ## Why People Hate AppSec, and the Tools They Ride In On
 
 Secure360, May 2026
+OWASP-MSP, 9 June 2026
 
 [Slides](slides/2026-S360-Why-People-Hate-AppSec.pdf) - [Notes](notes/2026-S360-Why-People-Hate-AppSec.md) - [Conference link](https://www.secure360.org/event/2026Secure360/sessions/SESKQNWFAQQKRBHV2)
 
